@@ -1,0 +1,142 @@
+body {
+    background-color: #bfd9c9;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background-color: #8fae90;
+}
+
+.navigation-item {
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 700;
+    color: #fed7f0;
+    list-style-type: none;
+}
+
+.navigation-item:hover {
+    color: #982800;
+}
+
+.container-darkmode-icon {
+    cursor: pointer;
+}
+
+.darkmode-icon {
+    filter: invert(9%) sepia(26%) saturate(590%) hue-rotate(89deg) brightness(94%) contrast(94%);
+}
+
+.arrow-up {
+    color: #141f18;
+}
+
+.header-form {
+    font-family: 'Signika Negative', sans-serif;
+    color: #fed7f0;
+}
+
+.notification {
+    font-family: 'Signika Negative', sans-serif;
+    color: #fed7f0;
+}
+
+.password, .password-check {
+    border: 2px solid #b4d8c6;
+    color: #141f18;
+    outline: #b4d8c6;
+    text-align: center;
+    border-radius: 5px;
+}
+
+::placeholder {
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 400;
+    color: #b4d8c6;
+}
+
+.button-check {
+    border: 2px solid #b4d8c6;
+    border-radius: 5px;
+    background-color: #64786e;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 700;
+    color: #fed7f0;
+}
+
+.button-check:hover {
+    background-color: #789084;
+}
+
+.button-check:active {
+    background-color: #64786e;
+}
+
+.footer {
+    background-color: #8fae90;
+}
+
+.copyright {
+    font-family: 'Signika Negative', sans-serif;
+    color: #fed7f0;
+    font-size: x-small;
+    margin: 0;
+}
+
+@media (max-width: 850px) {
+
+.menu-icon {
+    font-size: 50px;
+    color: #fed7f0;
+    cursor: pointer;
+}
+
+.navigation {
+    background-color: #8fae90;
+}
+
+.navigation-item {
+    font-size: 30px;
+}
+
+.copyright {
+    font-size: small;
+}
+    
+}
+
+@media (max-width: 500px) {
+   
+.copyright {
+    font-size: x-small;
+}
+        
+}
+
+/* darkmode */
+
+.body-dark-mode {
+    background-color: #1f2e24;
+}
+
+.header-dark-mode {
+    background-color: #141f18;
+}
+
+.navigation-dark-mode {
+    background-color: #141f18;
+}
+
+.darkmode-icon-reverted {
+    filter: invert(94%) sepia(19%) saturate(233%) hue-rotate(77deg) brightness(87%) contrast(94%);
+}
+
+.arrow-up-reverted {
+    filter: invert(94%) sepia(19%) saturate(233%) hue-rotate(77deg) brightness(87%) contrast(94%);
+}
+
+.footer-reverted {
+    background-color: #141f18;
+}
